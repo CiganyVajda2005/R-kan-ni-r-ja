@@ -6,6 +6,11 @@
     }
 .newsletter{
     color:gray;
+    border: thin solid #cfcfcf;
+    border-radius: 3px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 10px;
 }
 .newsletter button{
    background-color: #3cb878;
@@ -25,13 +30,17 @@
     margin-bottom: 4px;
     box-sizing: border-box;
 }
-.newsletter{
-    color: gray;
-    border: solid thin #cfcfcf;
-    border-radius: 3px;
-        padding: 10px;
-}
+
 .newsletter h3{
     margin-top: 0;
-    
+}
+.newsletter #terms{
+    position: relative;
+    top: 1;
+}
+
+.newsletter #closex{
+    position: absolute;
+    top: 0;
+    right: 4px;
 }
